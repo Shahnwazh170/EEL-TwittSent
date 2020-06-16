@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/services-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/eel.js"></script>
+
+
+    <title>TwittSent : Services</title>
+</head>
+
+<body>
+    <header id="header">
+        <div id="nav-placeholder"></div>
+
+
+        <div id="action-btn-div">
+            <table id="table">
+
+                <tr class="tr">
+                    <td><img class="btn-img" src="./img/political.png"></td>
+                    <td><img class="btn-img" src="./img/popcorn.png"></td>
+                    <td><img class="btn-img" src="./img/launch.png"></td>
+                    <td><img class="btn-img" src="./img/other.png"></td>
+                </tr>
+                <tr class="tr">
+                    <td> <a href="./politics.html"> <button class="action-btn"> Politics</button></a></td>
+                    <td> <a href="./movies.html"> <button class="action-btn"> Movies</button></a></td>
+                    <td> <a href="./product.html"><button class="action-btn"> Product</button></a></td>
+                    <td> <a href="./others.html"><button class="action-btn"> Other</button></a></td>
+                </tr>
+            </table>
+
+        </div>
+
+    </header>
+
+</body>
+<script src="js/jquery.js"></script>
+
+<script>
+    $(function () {
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+
+</html>

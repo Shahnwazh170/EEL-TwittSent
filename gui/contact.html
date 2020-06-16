@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-style.css">
+
+    <title>TwittSent : Contact</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="nav-placeholder"></div>
+
+        <div id="contact">
+            <h1>Contact</h1>
+            <form action="mailto//:shahnwazh170@gmail.com">
+                <input placeholder="Full name" type="text" name="name" id="name">
+                <input placeholder="Email address" type="email" name="email" id="email">
+                <textarea placeholder="Message" type="text" name="message" id="message"></textarea>
+                <input type="button" value="Send!">
+            </form>
+
+            <div id="social-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="img/facebook.png" class="social-icon">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="img/github_PNG20.png" class="social-icon">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="img/linkedin.png" class="social-icon">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="img/instagram.png" class="social-icon">
+                </a>
+            </div>
+        </div>
+
+
+
+    </header>
+</body>
+<script src="js/jquery.js"></script>
+<script>
+    $(function () {
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+
+</html>

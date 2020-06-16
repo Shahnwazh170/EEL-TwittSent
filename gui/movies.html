@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/services-style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="movies">
+        <a href="./services.html"><img id="back-btn" src="./img/back.png"></a>
+        <div id="movies-main">
+            <input type="text" name="topic" id="keyword" placeholder="Keyword">
+            <input type="number" min="100" name="topic" id="number" placeholder="Number of Tweets">
+            <input type="button" id="submit-btn" value="Track" onclick="analysisInitializer()">
+        </div>
+    </header>
+    <div class="container">
+            <h1>Pie Chart</h1>
+            <canvas id="pie-chart"></canvas>
+            <h1>Line Chart</h1>
+            <canvas id="line-chart">
+            </canvas>
+            <h1>Bar Chart</h1>
+            <canvas id="bar-chart">
+            </canvas>
+        </div>
+</body>
+
+<script src="./js/analysis.js"></script>
+<script src="/eel.js"></script>
+
+</html>

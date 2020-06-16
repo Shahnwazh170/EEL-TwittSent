@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+}
+
+header nav {
+    text-align: center;
+    padding: 8px;
+}
+
+
+header nav ul li a {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+}
+
+header nav ul li {
+    
+    margin: 8px;
+    background-color: rgb(255, 152, 0);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+header nav ul li:hover {
+    background-color: rgba(134, 82, 5, 0.911);
+    transition-duration: .5s;
+}
+
+#hero-text {
+    /* z-index: 1; */
+    color: #000;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#typewriter {
+    margin-left: 220px;
+    font-family: monospace;
+    width: 42ch;
+}
+
+#mypic {
+    width: 200px;
+    float: right;
+}
+/* ************************************************************* */
+/* ************************  About  **************************** */
+/* ************************************************************* */
+#about {
+    width: 90%;
+    height: auto;
+    border: 1px solid #FF9800;
+    border-bottom: 1px solid#6C63FF;
+    border-right: 1px solid#6C63FF;
+    margin: auto;
+    box-shadow: #6C63FF 5px 5px 10px, #FF9800 -5px -5px 10px;
+
+}
+
+#about h1 {
+    margin: 20px;
+    font-family: consolas;
+}
+
+#about p {
+    text-align: justify;
+    width: 60%;
+    padding: 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lang-img {
+    width: 50px;
+
+}
+
+#tech-used {
+    font-family: consolas;
+}
+
+#tech-used table tr td {
+    margin-top: 0;
+    padding: 20px;
+}
+

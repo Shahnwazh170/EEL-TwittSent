@@ -1,0 +1,40 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  /* position: relative; */
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.imgSlide{
+  display: block;
+  width: 600px;
+  height: 418px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
